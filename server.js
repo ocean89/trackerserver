@@ -4,10 +4,10 @@ var mysql = require('mysql');
 
 
 var connection = mysql.createConnection({
-  host     : 'localhost',
-  database : 'tracker',
-  user     : 'root',
-  password : '',
+  host     : 'mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/',
+  database : 'nodejs',
+  user     : 'admin3EFrlvU',
+  password : 'nodejs',
 });
 
 
