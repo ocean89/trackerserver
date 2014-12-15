@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   host     : 'mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/',
   database : 'nodejs',
   user     : 'admin3EFrlvU',
-  password : 'nodejs',
+  password : 'L7zfCc_Se35m',
 });
 
 
