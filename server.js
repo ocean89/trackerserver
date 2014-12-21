@@ -44,6 +44,10 @@ server.use(restify.bodyParser());
 
 server.get('/path', getAllPaths);
 server.post('/path', addPath);
+server.post('/test', function(req, res, next){
+	rest.send("OK");
+	next();
+});
 
 server.listen(8080, function() {
   console.log('%s listening at %s', server.name, server.url);
