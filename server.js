@@ -44,7 +44,7 @@ server.use(restify.bodyParser());
 
 server.get('/path', getAllPaths);
 server.post('/path', addPath);
-server.post('/test', function(req, res, next){
+server.get('/test', function(req, res, next){
 	rest.send("OK");
 	next();
 });
