@@ -1,5 +1,7 @@
 CREATE DATABASE tracker;
 
+USE tracker;
+
 CREATE TABLE IF NOT EXISTS `path` (
   id int(11) NOT NULL AUTO_INCREMENT,
   json longtext NOT NULL,
